@@ -12,3 +12,4 @@ class Paste(db.Model):
     expires_at = db.Column(db.DateTime, nullable=True)
     max_views = db.Column(db.Integer, nullable=True)
     view_count = db.Column(db.Integer, default=0)
+
